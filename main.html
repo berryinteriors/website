@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BERRY - pracownia projektowania wnętrz</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    @font-face {
+      font-family: 'TexGyreTermes';
+      src: url('texgyretermes-regular.woff') format('woff');
+      font-weight: bold;
+      font-display: swap;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #13294b;
+      color: #e6d9ca;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .container {
+      text-align: center;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .logo-duze {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .logo-duze img {
+      width: 100%;
+      height: auto;
+    }
+
+    .construction-text {
+      font-family: 'TexGyreTermes', Arial, sans-serif;
+      font-weight: regular;
+      font-size: clamp(1.2rem, 4vw, 2rem);
+      color: #e6d9ca;
+      transform: translateX(4.5%);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo-duze">
+      <img src="logo_duze.svg" alt="Logo Berry">
+    </div>
+    <p class="construction-text">Strona w budowie</p>
+  </div>
+</body>
+</html>
